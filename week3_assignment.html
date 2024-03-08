@@ -1,0 +1,76 @@
+<!-- Create a html form to register a new student
+Gather the following information using the relevent form elements:
+
+Name
+Date of Birth
+Gender
+Address
+Telephone
+Email Address
+Course
+The form should have two buttons:
+
+Register
+Cancel
+All the form elements are not optional.
+
+Incorporate appropriate labels for the form elements. -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color: bisque;">
+    <h2><b>Personal details section:</b></h2>
+    <p>
+        This form has been created to collect your personal details to facilitate smooth inclusion to our school database.
+    </p>
+    <form>
+        <label for="name">Name</label>
+        <input type="text" id="name" placeholder="Enter your full name" required><br><br>
+
+        <label for="Date of birth">Date of birth</label>
+        
+
+        <label for="Gender">Gender</label>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br><br>
+
+        <fieldset>
+            <label for="Country">Country</label>
+            <select id="country" name="country" required>
+            <option value="Kenya">Kenya</option>
+            <option value="Uganda">Uganda</option>
+            <option value="Tanzania">Tanzania</option>
+        </select>
+        <label for="County">County</label>
+        <select name="County" id="County" required>
+            <option value="Nairobi">Nairobi</option>
+            <option value="Kirinyaga">Kirinyaga</option>
+            <option value="Kiambu">kiambu</option>
+            <option value="Murang'a">Murang'a</option>
+        </select>
+            <input type="text" id="sub-county" name="sub-county" placeholder="Enter your sub-county" required>
+            <input type="text" id="street" name="street" placeholder="Enter your street name" required><br><br>
+        </fieldset>
+
+        <label for="Telephone">Telephone</label>
+        <input type="number" id="Telephone" name="Telephone" placeholder="Enter your telephone number" required><br><br>
+        
+        <label for="Email">Email Address</label>
+        <input type="text" name="email" id="email" placeholder="Enter your email address" required><br><br>
+
+        <label for="Course">Course</label>
+        <input type="text" id="course" name="course" placeholder="Enter your course name" required><br><br>
+
+        <button type="register" style="background-color: green;">Register</button>
+        <button type="Cancel" style="background-color: green;">Cancel</button>
+
+
+    </form>
+</body>
+</html>
