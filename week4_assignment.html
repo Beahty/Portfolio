@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Practice</title>
+    <style>
+        header {
+            background-color: #333;
+            padding: 20px;
+            color: white;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Beatrice N</h1>
+    </header>
+</body>
+
+<section>
+    <p>Hi, I'm Beatrice N. I'm a web developer with a passion for creating beautiful and functional websites.</p>
+</section>
+<style>
+    section {
+        background-color: #f6f9f8;
+        padding: 20px;
+        margin-top: 20px;
+    }
+</style>
+
+<section>
+    <h2>Skills</h2>
+    <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>Responsive Design</li>
+    </ul>
+</section>
+<style>
+    ul {
+        list-style: none;
+        padding: 0;
+    }
+    li {
+        border: 1px solid #090909;
+        padding: 10px;
+        margin-bottom: 10px;
+        background-color: rgb(9, 161, 72);
+    }
+</style>
+
+<section>
+    <h2>Contact Information</h2>
+    <ul>
+        <li>Email: beatrice@example.com</li>
+        <li>LinkedIn: <a href="#">Beatrice N</a></li>
+        <li>Twitter: <a href="#">@beatricen</a></li>
+    </ul>
+</section>
+<style>
+    section:last-child {
+        background-color: #333;
+        color: white;
+        padding: 20px;
+        margin-top: 20px;
+    }
+    ul:last-child {
+        padding: 0;
+    }
+    li:last-child {
+        margin-bottom: 0;
+    }
+</style>
+
+<style>
+    @media screen and (max-width: 768px) {
+        header, section, section:last-child {
+            padding: 10px;
+        }
+        li {
+            padding: 8px;
+            margin-bottom: 8px;
+        }
+    }
+</style>
+</html>
